@@ -7,9 +7,61 @@
 }
 
 /*GRID CONTAINER*/
-#id {
+#container_parent {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "encabezado" "menu-parallax" "reseñas-destacadas" "pie de pagina";
+  grid-template-areas: "encabezado" "menu-parallax" "reseñas-destacadas" "pie-de-pagina";
+  gap: 10px;
+}
+
+.container_parallax {
+  grid-area: menu-parallax;
+}
+
+/*FLEX CONTAINER*/
+.top_page {
+  grid-area: encabezado;
+  display: flex;
+  justify-content: center;
+}
+
+.container_review {
+  grid-area: reseñas-destacadas;
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+.bott_page {
+  grid-area: pie-de-pagina;
+  display: flex;
+  justify-content: center;
+  background-color: cornflowerblue;
+}
+
+/*PAGUE CONTENT*/
+.iParent__icon {
+  width: 150px;
+}
+
+.parallax__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/parallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.parallax__menu .list_menu {
+  list-style-type: none;
+}
+.parallax__menu .list_menu li {
+  margin: 10px;
+}
+.parallax__menu .list_menu li a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

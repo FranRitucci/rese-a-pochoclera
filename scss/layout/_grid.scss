@@ -1,9 +1,14 @@
-#id{
+#container_parent{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
     grid-template-areas:    "encabezado"
                             "menu-parallax"
                             "reseñas-destacadas"
-                            "pie de pagina";
+                            "pie-de-pagina";
+    gap: 10px;
+}
+
+.container_parallax {
+    grid-area: menu-parallax;
 }

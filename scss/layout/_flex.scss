@@ -1,0 +1,19 @@
+.top_page{
+    grid-area: encabezado;
+    display: flex;
+    justify-content: center;
+}
+
+.container_review{
+    grid-area: reseñas-destacadas;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.bott_page{
+    grid-area: pie-de-pagina;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}

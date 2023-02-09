@@ -1,0 +1,29 @@
+.iParent {
+    &__icon {
+        width: 150px;
+    }
+}
+
+.parallax__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/img/parallax.jpg);
+    background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height: 600px;
+
+    .list_menu {
+        list-style-type: none;
+
+        li {
+            margin: 10px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
