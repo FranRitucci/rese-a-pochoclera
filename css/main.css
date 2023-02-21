@@ -26,25 +26,19 @@
   justify-content: center;
 }
 
+.list_menu_my {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .container_review {
   grid-area: reseñas-destacadas;
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
 }
 
-.bott_page {
-  grid-area: pie-de-pagina;
-  display: flex;
-  justify-content: center;
-  background-color: cornflowerblue;
-}
-
-/*PAGUE CONTENT*/
-.iParent__icon {
-  width: 150px;
-}
-
+/*PAGE CONTENT*/
 .parallax__menu {
   display: flex;
   justify-content: center;
@@ -54,14 +48,43 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 400px;
 }
-.parallax__menu .list_menu {
+.parallax__menu .list_menu_my {
   list-style-type: none;
+  text-align: center;
+  height: 200px;
+  padding: 0;
+  margin: 0;
 }
-.parallax__menu .list_menu li {
-  margin: 10px;
-}
-.parallax__menu .list_menu li a {
+.parallax__menu .list_menu_my li a {
   text-decoration: none;
+}
+
+/*GENERAL CONTENT*/
+.bott_page {
+  grid-area: pie-de-pagina;
+  text-align: center;
+}
+.bott_page__your_review {
+  margin-top: 15px;
+}
+.bott_page__your_review__p {
+  margin: 0;
+}
+.bott_page__redes {
+  margin-top: 15px;
+}
+.bott_page__p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/*IMGs-Icons*/
+.iParent__icon {
+  width: 100px;
+}
+
+.icon_bottom {
+  width: 50px;
 }/*# sourceMappingURL=main.css.map */

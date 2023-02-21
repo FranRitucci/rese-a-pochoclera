@@ -1,0 +1,20 @@
+.bott_page{
+    grid-area: pie-de-pagina;
+    text-align: center;
+
+    &__your_review{
+        margin-top: 15px;
+        &__p{
+            margin: 0;
+        }
+    }
+
+    &__redes{
+        margin-top: 15px;
+    }
+
+    &__p{
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+}
