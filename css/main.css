@@ -19,6 +19,14 @@
   grid-area: menu-parallax;
 }
 
+#container_parent2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas: "encabezado" "menu-parallax" "reseñas-destacadas" "pie-de-pagina";
+  gap: 10px;
+}
+
 /*FLEX CONTAINER*/
 .top_page {
   grid-area: encabezado;
@@ -58,6 +66,18 @@
   margin: 0;
 }
 .parallax__menu .list_menu_my li a {
+  text-decoration: none;
+}
+
+.parallax__menu1 .list_menu_my {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+.parallax__menu1 .list_menu_my li a {
   text-decoration: none;
 }
 

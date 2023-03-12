@@ -23,3 +23,20 @@
         }
     }
 }
+
+.parallax__menu1 {
+    .list_menu_my {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+
+        li {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
