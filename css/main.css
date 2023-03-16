@@ -31,7 +31,8 @@
 .top_page {
   grid-area: encabezado;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .list_menu_my {
@@ -56,7 +57,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 .parallax__menu .list_menu_my {
   list-style-type: none;
