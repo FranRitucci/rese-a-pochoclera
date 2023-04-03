@@ -16,3 +16,9 @@
     display: flex;
     justify-content: center;
 }
+
+.container_review2{
+    grid-area: reseñas-destacadas;
+    display: flex;
+    flex-direction: column;
+}

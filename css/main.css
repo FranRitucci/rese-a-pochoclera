@@ -19,14 +19,6 @@
   grid-area: menu-parallax;
 }
 
-#container_parent2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas: "encabezado" "menu-parallax" "reseñas-destacadas" "pie-de-pagina";
-  gap: 10px;
-}
-
 /*FLEX CONTAINER*/
 .top_page {
   grid-area: encabezado;
@@ -47,6 +39,12 @@
   justify-content: center;
 }
 
+.container_review2 {
+  grid-area: reseñas-destacadas;
+  display: flex;
+  flex-direction: column;
+}
+
 /*PAGE CONTENT*/
 .parallax__menu {
   display: flex;
@@ -57,7 +55,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 500px;
 }
 .parallax__menu .list_menu_my {
   list-style-type: none;
@@ -108,4 +106,9 @@
 
 .icon_bottom {
   width: 50px;
+}
+
+/*FONTS*/
+.container_review .container .card .list-group .list-group-item a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
