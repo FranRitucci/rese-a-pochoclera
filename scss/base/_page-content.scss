@@ -40,3 +40,18 @@
         }
     }
 }
+
+.parent_building{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border: solid;
+    border-radius: 15px;
+    
+        .building{
+            border: solid;
+        border-radius: 15px;
+        width: 70%;
+    }
+}

@@ -45,6 +45,12 @@
   flex-direction: column;
 }
 
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*PAGE CONTENT*/
 .parallax__menu {
   display: flex;
@@ -78,6 +84,20 @@
 }
 .parallax__menu1 .list_menu_my li a {
   text-decoration: none;
+}
+
+.parent_building {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  border: solid;
+  border-radius: 15px;
+}
+.parent_building .building {
+  border: solid;
+  border-radius: 15px;
+  width: 70%;
 }
 
 /*GENERAL CONTENT*/
