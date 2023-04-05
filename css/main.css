@@ -131,4 +131,11 @@
 /*FONTS*/
 .container_review .container .card .list-group .list-group-item a {
   text-decoration: none;
+}
+
+.parent_written_by {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
